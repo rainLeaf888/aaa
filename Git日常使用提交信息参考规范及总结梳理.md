@@ -11,6 +11,21 @@ tags: [Git]
 ## Commit message 和 Change log 编写指南（转载内容）
 作者： [阮一峰](http://www.ruanyifeng.com)
 日期： [<abbr class="published" title="2016-01-06T21:23:23+08:00">2016年1月 6日</abbr>](http://www.ruanyifeng.com/blog/2016/01/)
+
+
+git clone 链接 // copy github 连接对应的项目内容
+
+git remote add origin 链接 // 远程连接
+
+git add --all // 将内容添加
+
+git commit -m "注释内容" // 提交内容及添加备注
+
+git push origin master // 将修改的内容push到github上， origin名即创建远程链接的名
+
+git remote -v //查看当前远程连接
+
+
 Git 每次提交代码，都要写 Commit message（提交说明），否则就不允许提交。
 
 ``` bash
